@@ -1,0 +1,267 @@
+html,body{
+	margin:0px;
+  background-color: #c1c1c1;
+}
+body{
+  position: relative;
+}
+@font-face{
+  font-family: "Exo Light";
+  src: url("../fonts/exo.otf");
+}
+#prepay{
+  background-image:url('../img/backdrop-pay.png');
+  height:100%;
+  font-family: "Exo Light";
+  font-size:18px;
+}
+.menu-size{
+  font-size: 18px;
+}
+.screen-find{
+  font-size:300px;
+}
+.carousel,.item{height:100%;}
+.carousel-inner{height:100%;width: 100%;}
+.about-page{
+  padding:5px;
+  height:300px;
+}
+.about-heading{
+  font-size: 35px;
+}
+.about-content{
+  font-size: 20px;
+  text-align: center;
+  padding: 50px;
+}
+.about-panel{
+  height:576px;
+}
+.page{
+  height: 90px;
+  text-align: center;
+  padding: 30px;
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: #ddd;
+  font-weight: bold;
+  font-family: "Exo Light";
+}
+.img-panel{
+  width:100%;
+  height:200px;
+}
+.lr{
+  border-right: 1px solid white;
+}
+.booking-page{
+  background-color: #fff;
+}
+.text-black{
+  color:#666;
+}
+.navbar-black{
+  background-color: #000;
+  font-family: Georgia, "Times New Roman", Times, serif; 
+}
+.space-right{
+  margin-right:45px;
+}
+.space-left{
+  margin:0px;
+}
+.about-back{
+  background-color: #c1c1c1;
+  background-image: url('../img/about.jpg');
+}
+.facility-group{
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  color:#2196f3;
+}
+.facility-group:hover{
+  color:#444;
+  box-shadow: 2px solid black;
+}
+.facility-panel{
+  margin-left: 50px;
+}
+.hide-content{
+  display:none;
+}
+.facility-panel-content{
+  font-size:30px;
+}
+.facility-box{
+  height:300px;
+  text-align: center;
+}
+.space-ten{
+  margin-top: 10px;
+}
+.contact-page{
+  background-color: #fff;
+}
+.tarriff-display-content{
+  padding: 20px;
+  font-size: 18px;
+}
+
+
+.rest-tab-title{
+  font-size:20px;
+}
+
+.rest-tab-content{
+  font-size:18px;
+  padding:10px;
+}
+
+.rest-left-side-content-header{
+  padding: 10px;
+  font-size: 23px;
+  color: #fff;
+  text-align: center;
+}
+
+.rest-left-side-content{
+  padding:10px;
+  font-size:18px;
+  margin-bottom: 20px;
+}
+
+.footer-content{
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  background-color: #444;
+  color: #ddd;
+}
+
+#tariffs{
+
+}
+
+.rest-back{
+  background-image: url('../img/rest.gif');
+  color:#ccc;
+}
+
+.facilities-back{
+  background-color:#fff;
+}
+
+.review-badge{
+  position: absolute;
+  z-index: 1000;
+  margin-top: 150px;
+}
+
+.room-panel{
+  text-transform: capitalize;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+.room-name{
+  padding:15px;
+}
+
+.room-panel-list-name{
+  line-height:1.2;
+  text-transform: capitalize;
+}
+
+.room-panel-list{
+  padding:2px;
+}
+
+.room-panel-list-type{
+  margin-right: 10px;
+}
+
+.btn-cost{
+  background-image: -webkit-radial-gradient(circle, #846C41 80%, #765316 81%);
+  background-image: -o-radial-gradient(circle, #846C41 80%, #765316 81%);
+  background-image: radial-gradient(circle, #846C41 80%, #765316 81%);
+  background-repeat: no-repeat;
+  -webkit-background-size: 200% 200%;
+  background-size: 200%;
+  background-position: 50%;
+  -webkit-transition: background-size .2s;
+  -o-transition: background-size .2s;
+  transition: background-size .2s;
+  color:white;
+}
+
+.btn-cost:active {
+background-color: #846C41;
+background-image: -webkit-radial-gradient(circle, #846C41 10%, #765316 11%);
+background-image: -o-radial-gradient(circle, #846C41 10%, #765316 11%);
+background-image: radial-gradient(circle, #846C41 10%, #765316 11%);
+background-repeat: no-repeat;
+-webkit-background-size: 1000% 1000%;
+background-size: 1000%;
+-webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+color:white;
+}
+
+.btn-cost:hover {
+-webkit-background-size: 100% 100%;
+background-size: 100%;
+border-color: #846C41;
+color:white;
+}
+
+.btn-reserve{
+  background-image: -webkit-radial-gradient(circle, #6B462B 80%, #5A2B09 81%);
+  background-image: -o-radial-gradient(circle, #6B462B 80%, #5A2B09 81%);
+  background-image: radial-gradient(circle, #6B462B 80%, #5A2B09 81%);
+  background-repeat: no-repeat;
+  -webkit-background-size: 200% 200%;
+  background-size: 200%;
+  background-position: 50%;
+  -webkit-transition: background-size .2s;
+  -o-transition: background-size .2s;
+  transition: background-size .2s;
+  color:white;
+}
+
+.btn-reserve:active {
+background-color: #846C41;
+background-image: -webkit-radial-gradient(circle, #6B462B 10%, #5A2B09 11%);
+background-image: -o-radial-gradient(circle, #6B462B 10%, #5A2B09 11%);
+background-image: radial-gradient(circle, #6B462B 10%, #5A2B09 11%);
+background-repeat: no-repeat;
+-webkit-background-size: 1000% 1000%;
+background-size: 1000%;
+-webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+color:white;
+}
+
+.btn-reserve:hover {
+-webkit-background-size: 100% 100%;
+background-size: 100%;
+border-color: #6B462B;
+color:white;
+}
+
+.availability-form{
+  margin:35px;
+}
+
+.facility-back{
+  background: url('../img/bg-bubble.png') top center no-repeat;
+  background-color: #1E1D2F;
+}
+
+#admin-panel{
+  background-image: url('../img/backdrop-pay.png');
+  color:#1E1D2F;
+  font-family: "Exo Light";
+}
